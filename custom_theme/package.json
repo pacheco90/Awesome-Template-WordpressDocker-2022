@@ -1,0 +1,52 @@
+{
+  "name": "wordpress-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for Wordpress themes",
+  "scripts": {
+    "dev": "webpack --mode=development --progress",
+    "watch": "webpack --mode=development --watch",
+    "build": "webpack --mode=production --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RafaelJacome/wordpress-solution"
+  },
+  "author": "Rafael Jacome",
+  "license": "ISC",
+  "homepage": "https://github.com/RafaelJacome/wordpress-solution",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "autoprefixer": "^9.5.0",
+    "babel-loader": "^8.0.5",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^2.1.1",
+    "file-loader": "^6.2.0",
+    "glob": "^7.1.7",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "mini-css-extract-plugin": "^0.5.0",
+    "minify-html-webpack-plugin": "^1.1.6",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uglify-php": "^1.0.7",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-notifier": "^1.8.0"
+  },
+  "peerDependencies": {
+    "jquery": "^3.4.1"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 0.5%",
+    "IE 10"
+  ],
+  "dependencies": {
+    "aos": "^2.3.4",
+    "dropkickjs": "^2.2.4",
+    "slick-carousel": "^1.8.1"
+  }
+}
