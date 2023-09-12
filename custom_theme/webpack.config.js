@@ -68,12 +68,12 @@ var config = {
     new WebpackNotifierPlugin({
       alwaysNotify: true
     }),
-    new CopyPlugin([
-      {
-        from: 'src/assets',
-        to: 'assets'
-      }
-    ]),
+    // new CopyPlugin([
+    //   {
+    //     from: 'src/assets',
+    //     to: 'assets'
+    //   }
+    // ]),
     // new CopyPlugin([
     //   {
     //     from: 'src/fonts',
